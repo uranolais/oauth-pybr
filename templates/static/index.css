@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --background-color: #2b5b84;
+  --offwhite: #faf9f6;
+  --font-family: "Prompt", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-xl {
+  margin-top: 0.45rem;
+  /* height: 45rem; */
+  width: 40.03rem;
+}
+
+.logo-m {
+  margin-top: 2.45rem;
+  /* height: 45rem; */
+  width: 28.03rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--offwhite);
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: var(--offwhite);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -3.5rem;
+  gap: 5rem;
+}
+
+.social-media-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-media-icon {
+  height: 5rem;
+  width: 5rem;
+  margin-top: 5rem;
+}
+
+.social-media-details a p {
+  color: var(--offwhite);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}

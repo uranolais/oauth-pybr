@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <title>Python BR + Alura</title>
+</head>
+<body>
+
+    <header>
+        <img src="{% static 'assets/logo_pybr.png' %}" alt="logo do evento python brasil 2024" class="logo-xl">
+        <img src="{% static 'assets/logo_alura.svg' %}" alt="logo da alura" class="logo-m">
+    </header>
+
+    <main>
+        <h1>Autenticação com OAuth 2.0</h1>
+        <div class="social-media">
+            <div class="social-media-details">
+                <a href="http://localhost:8000/accounts/github/login/?process=login">
+                    <img src="{% static 'assets/github.svg' %}" alt="Ícone para realizar a autenticação com GitHub" class="social-media-icon">
+                    <p>GitHub</p>
+                </a>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

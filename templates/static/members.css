@@ -1,0 +1,31 @@
+:root {
+  --background-color: #2b5b84;
+  --offwhite: #faf9f6;
+  --font-family: "Prompt", sans-serif;
+}
+
+.logout-btn-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.texto {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.logout-btn {
+  padding: 0.5rem;
+  text-decoration: none;
+  background-color: var(--offwhite);
+  color: var(--background-color);
+  border-radius: 0.3rem;
+  width: 6.5rem;
+  height: 1.6rem;
+  font-weight: 400; 
+  font-size: 1rem;
+  line-height: 1.6rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
