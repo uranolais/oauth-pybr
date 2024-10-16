@@ -2,6 +2,8 @@
 
 Este é o repositório para o projeto de duas páginas feito em Django para o Python Brasil 2024. Faça o download dos arquivos iniciais e vamos iniciar!
 
+Link para o material de apoio ([slides](https://docs.google.com/presentation/d/1zrdSSuNrKNv1gPmWhwFkRQv0ECTC-WQY_U_swCk4QcM/edit?usp=sharing)).
+
 ## Configuração do Ambiente Virtual (venv)
 
 Para garantir um ambiente de desenvolvimento limpo e isolado, é recomendável usar um ambiente virtual do Python. Siga as etapas abaixo para configurar e ativar o ambiente virtual:
