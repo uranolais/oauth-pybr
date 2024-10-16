@@ -1,4 +1,16 @@
 asgiref==3.8.1
+certifi==2024.8.30
+cffi==1.17.1
+charset-normalizer==3.4.0
+cryptography==43.0.1
 Django==5.1.1
+django-allauth==65.0.2
+idna==3.10
+oauthlib==3.2.2
+pycparser==2.22
+PyJWT==2.9.0
+requests==2.32.3
+requests-oauthlib==2.0.0
 sqlparse==0.5.1
 tzdata==2024.2
+urllib3==2.2.3
